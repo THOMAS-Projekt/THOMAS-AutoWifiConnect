@@ -1,7 +1,7 @@
 #!/bin/bash
 ######################### ANPASSEN #########################
 #SSIDs mit Leerzeichen ohne Leerzeichen eintragen(Beispiel: Fritz!Box7390 statt Fritz!Box 7390)
-WifiSSID=("FritzBoxBusse" "TP-LINK_E2FCEC")
+WifiSSID=("SSID1" "SSID2")
 
 
 ######################### ENDE ANPASSEN #########################
