@@ -1,7 +1,7 @@
 #!/bin/bash
 ######################### ANPASSEN #########################
 #SSIDs mit Leerzeichen ohne Leerzeichen eintragen(Beispiel: Fritz!Box7390 statt Fritz!Box 7390)
-WifiSSID=("SSID1" "SSID2")
+WifiSSID=("FritzBoxBusse" "ThomasProjekt")
 
 
 ######################### ENDE ANPASSEN #########################
@@ -115,6 +115,9 @@ function checkAP {
 
 #Führt die Funktion getSSIDList aus.
 getSSIDList
+
+#Zum debuggen entfernen!
+clear 
 
 #Prüft ob die Anzahl der Elemente im Signal Array (Stärke) und SSID Array (Namen) identisch sind
 if [ ${#SIGNALArray[@]} != ${#SSIDArray[@]} ] 

@@ -1,6 +1,6 @@
 #!/bin/bash
 ######## BEARBEITEN #######
-SLEEPTIME=5
+SLEEPTIME=10
 ####### BEARBEITEN ENDE ########
 
 while true;
