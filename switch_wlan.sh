@@ -1,7 +1,7 @@
 #!/bin/bash
 ######################### ANPASSEN #########################
 #SSIDs mit Leerzeichen ohne Leerzeichen eintragen(Beispiel: Fritz!Box7390 statt Fritz!Box 7390)
-WifiSSID=("FritzBoxBusse" "ThomasProjekt")
+WifiSSID=("AP1" "ThomasProjekt")
 
 
 ######################### ENDE ANPASSEN #########################
